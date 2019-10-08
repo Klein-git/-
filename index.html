@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>一个人的html</title>
+<style>
+body {
+	width: 100%;
+	height: 100%;
+	text-align: center
+}
+button {
+	width: 80px;
+	height: 30px;
+	color: #ffffff;
+	background: blue;
+	border-radius: 15px;
+	outline: none
+}
+</style>
+</head>
+
+<body>
+<button onclick="f()" id="btn">点击</button>
+<script>
+    var index = 0;
+	
+	function f(){
+		switch(index){
+			case 0:
+				alert('就像没有预定的剧情');
+				break;
+			case 1:
+				alert('感觉拉着我们在靠近');
+				break;
+			case 2:
+				alert('萤火虫就是你的眼睛');
+				break;
+			case 3:
+				alert('喜欢就一起感受');
+				break;
+			case 4:
+				alert('非你不可');
+				break;	
+			default:
+				alert('再点键都坏了');
+				break;
+		}
+		index++;
+	}
+    </script>
+</body>
+</html>
